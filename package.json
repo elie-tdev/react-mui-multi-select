@@ -14,10 +14,8 @@
     "changed:lint": "lerna run lint --since --exclude-dependents --parallel",
     "changed:lint-fix": "lerna run lint-fix --since --exclude-dependents --parallel",
     "changed:test": "lerna run test --since --exclude-dependents --stream",
-    "gh:pages": "yarn workspace gh-pages-site build",
-    "utils:update-editor-sdks": "yarn dlx @yarnpkg/sdks vscode",
-    "release:ci": "lerna publish --conventional-commits --no-private --yes --no-verify-access",
-    "clean": "yarn workspaces foreach run clean"
+    "npm:build": "yarn workspace react-mui-multi-select build",
+    "release:ci": "yarn workspace react-mui-multi-select pub"
   },
   "dependencies": {
     "@commitlint/cli": "^13.2.0",
