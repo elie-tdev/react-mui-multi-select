@@ -14,6 +14,7 @@
     "changed:lint": "lerna run lint --since --exclude-dependents --parallel",
     "changed:lint-fix": "lerna run lint-fix --since --exclude-dependents --parallel",
     "changed:test": "lerna run test --since --exclude-dependents --stream",
+    "npm:dev": "yarn workspace react-mui-multi-select dev",
     "npm:build": "yarn workspace react-mui-multi-select build",
     "release:ci": "yarn workspace react-mui-multi-select pub"
   },
