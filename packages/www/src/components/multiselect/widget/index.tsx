@@ -41,7 +41,7 @@ export function MultiSelectWidget({ data, error }: MultiSelectWidgetProps) {
           label="Multi Select"
           placeholder="Braveheart"
           onChange={onChange}
-          limitTags={3}
+          limitTags={2}
         />
       )}
       {error && <div style={{ color: "red" }}>{error}</div>}
