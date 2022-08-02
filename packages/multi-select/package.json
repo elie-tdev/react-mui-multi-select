@@ -27,9 +27,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -p tsconfig.release.json",
-    "pages": "vite build --config vite.config.pages.ts",
-    "pages:build": "yarn build",
-    "serve": "vite preview --config vite.config.pages.ts",
     "test": "jest",
     "format:fix": "prettier -w -c ./app ./lib",
     "format:run": "pretty-quick",
