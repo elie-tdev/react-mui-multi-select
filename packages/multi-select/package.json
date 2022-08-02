@@ -1,6 +1,6 @@
 {
   "name": "react-mui-multi-select",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "sideEffects": false,
   "author": "topfullstackdev <joujiyoshino.work@gmail.com>",
   "description": "Simple and lightweight Mui multiple select dropdown component with search function",
